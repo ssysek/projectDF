@@ -1,11 +1,8 @@
 package GUI;
 
+import javafx.scene.control.*;
 import labs.DfList;
 import labs.DataFrame;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextInputDialog;
 import javafx.stage.FileChooser;
 import labs.Value;
 
@@ -19,13 +16,6 @@ import java.util.Optional;
 
 public class Controller {
 
-    public Button max;
-    public Button min;
-    public Button sum;
-    public Button var;
-    public Button std;
-    public Button med;
-    public Button mean;
     public ListView listView;
 
     private DataFrame df = null;
